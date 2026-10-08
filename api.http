@@ -1,0 +1,9 @@
+// ACCESS TOKEN
+POST http://localhost:8080/realms/honorato-realm/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+username=user@user.com
+&password=user
+&grant_type=password
+&client_id=honorato-client
+// &scope=openid para obter o id_token
